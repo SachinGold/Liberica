@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85471" started-at="2020-08-09T08:19:32Z" finished-at="2020-08-09T08:20:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85471" started-at="2020-08-09T08:19:32Z" finished-at="2020-08-09T08:20:57Z">
+      <class name="com.test.LivingPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.LivingPageTest@204f30ec]" name="openBrowser" is-config="true" duration-ms="72910" started-at="2020-08-09T08:19:32Z" finished-at="2020-08-09T08:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="livingMenuDisplay()[pri:1, instance:com.test.LivingPageTest@204f30ec]" name="livingMenuDisplay" duration-ms="1625" started-at="2020-08-09T08:20:45Z" finished-at="2020-08-09T08:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- livingMenuDisplay -->
+        <test-method status="PASS" signature="get_Sofa_set_SubmenuText()[pri:2, instance:com.test.LivingPageTest@204f30ec]" name="get_Sofa_set_SubmenuText" duration-ms="198" started-at="2020-08-09T08:20:47Z" finished-at="2020-08-09T08:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Sofa_set_SubmenuText -->
+        <test-method status="PASS" signature="get_Sofa_set_SubMenuList()[pri:3, instance:com.test.LivingPageTest@204f30ec]" name="get_Sofa_set_SubMenuList" duration-ms="1061" started-at="2020-08-09T08:20:47Z" finished-at="2020-08-09T08:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Sofa_set_SubMenuList -->
+        <test-method status="PASS" signature="get_Sofa_cum_Bed_SubmenuText()[pri:4, instance:com.test.LivingPageTest@204f30ec]" name="get_Sofa_cum_Bed_SubmenuText" duration-ms="243" started-at="2020-08-09T08:20:48Z" finished-at="2020-08-09T08:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Sofa_cum_Bed_SubmenuText -->
+        <test-method status="PASS" signature="get_Sofa_cum_Bed_SubMenuList()[pri:5, instance:com.test.LivingPageTest@204f30ec]" name="get_Sofa_cum_Bed_SubMenuList" duration-ms="473" started-at="2020-08-09T08:20:48Z" finished-at="2020-08-09T08:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Sofa_cum_Bed_SubMenuList -->
+        <test-method status="PASS" signature="get_Chair_SubMenuText()[pri:6, instance:com.test.LivingPageTest@204f30ec]" name="get_Chair_SubMenuText" duration-ms="141" started-at="2020-08-09T08:20:49Z" finished-at="2020-08-09T08:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Chair_SubMenuText -->
+        <test-method status="PASS" signature="get_Chair_SubMenuList()[pri:7, instance:com.test.LivingPageTest@204f30ec]" name="get_Chair_SubMenuList" duration-ms="537" started-at="2020-08-09T08:20:49Z" finished-at="2020-08-09T08:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Chair_SubMenuList -->
+        <test-method status="PASS" signature="get_Tables_SubMenuText()[pri:8, instance:com.test.LivingPageTest@204f30ec]" name="get_Tables_SubMenuText" duration-ms="143" started-at="2020-08-09T08:20:49Z" finished-at="2020-08-09T08:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Tables_SubMenuText -->
+        <test-method status="PASS" signature="get_Tables_SubMenuList()[pri:9, instance:com.test.LivingPageTest@204f30ec]" name="get_Tables_SubMenuList" duration-ms="375" started-at="2020-08-09T08:20:49Z" finished-at="2020-08-09T08:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Tables_SubMenuList -->
+        <test-method status="PASS" signature="get_Storage_SubMenuText()[pri:10, instance:com.test.LivingPageTest@204f30ec]" name="get_Storage_SubMenuText" duration-ms="103" started-at="2020-08-09T08:20:50Z" finished-at="2020-08-09T08:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Storage_SubMenuText -->
+        <test-method status="PASS" signature="get_Storage_SubMenuList()[pri:11, instance:com.test.LivingPageTest@204f30ec]" name="get_Storage_SubMenuList" duration-ms="653" started-at="2020-08-09T08:20:50Z" finished-at="2020-08-09T08:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Storage_SubMenuList -->
+        <test-method status="PASS" signature="get_Balcony_And_Outdoor_SubMenuText()[pri:12, instance:com.test.LivingPageTest@204f30ec]" name="get_Balcony_And_Outdoor_SubMenuText" duration-ms="123" started-at="2020-08-09T08:20:51Z" finished-at="2020-08-09T08:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Balcony_And_Outdoor_SubMenuText -->
+        <test-method status="PASS" signature="get_Balcony_And_Outdoor_SubMenu_List_SubMenuList()[pri:13, instance:com.test.LivingPageTest@204f30ec]" name="get_Balcony_And_Outdoor_SubMenu_List_SubMenuList" duration-ms="296" started-at="2020-08-09T08:20:51Z" finished-at="2020-08-09T08:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Balcony_And_Outdoor_SubMenu_List_SubMenuList -->
+        <test-method status="PASS" signature="close_Window_And_quiteDriver()[pri:0, instance:com.test.LivingPageTest@204f30ec]" name="close_Window_And_quiteDriver" is-config="true" duration-ms="6023" started-at="2020-08-09T08:20:51Z" finished-at="2020-08-09T08:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Window_And_quiteDriver -->
+      </class> <!-- com.test.LivingPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
