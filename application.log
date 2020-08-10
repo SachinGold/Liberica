@@ -25,3 +25,17 @@
 2020-08-09 13:50:51 62663 INFO  [main] - verify 'Storage' sub Menu List(Items) from Living Menu
 2020-08-09 13:50:51 62788 INFO  [main] - Verify actual 'Balcony & Outdoor' text
 2020-08-09 13:50:51 63089 INFO  [main] - verify 'Balcony & Outdoor' sub Menu List(Items) from Living Menu
+2020-08-10 06:07:15 0 INFO  [main] - Open browser ,Entering appliction url and maximizing browser
+2020-08-10 06:07:27 12247 INFO  [main] - Verify 'Living' Menu is visible or not
+2020-08-10 06:07:27 12472 INFO  [main] - Verify actual 'Sofa Set' text
+2020-08-10 06:07:28 13453 INFO  [main] - verify 'Sofa set' sub Menu List(Items) from Living Menu
+2020-08-10 06:07:28 13615 INFO  [main] - Verify actual 'Sofa cum Bed' text
+2020-08-10 06:07:29 14049 INFO  [main] - verify 'Sofa cum Bed' sub Menu List(Items) from Living Menu
+2020-08-10 06:07:29 14168 INFO  [main] - Verify actual 'Chairs' text
+2020-08-10 06:07:30 14729 INFO  [main] - verify 'Chair' sub Menu List(Items) from Living Menu
+2020-08-10 06:07:30 14849 INFO  [main] - Verify actual 'Tables' text
+2020-08-10 06:07:30 15255 INFO  [main] - verify 'Tables' sub Menu List(Items) from Living Menu
+2020-08-10 06:07:30 15357 INFO  [main] - Verify actual 'Storage' text
+2020-08-10 06:07:31 16070 INFO  [main] - verify 'Storage' sub Menu List(Items) from Living Menu
+2020-08-10 06:07:31 16188 INFO  [main] - Verify actual 'Balcony & Outdoor' text
+2020-08-10 06:07:31 16502 INFO  [main] - verify 'Balcony & Outdoor' sub Menu List(Items) from Living Menu
