@@ -1,0 +1,42 @@
+{
+		"Beds":[
+				"Beds with Storage",
+				"Beds without Storage",
+				"Double Beds",
+				"King Size Beds",
+				"Queen Size Beds",
+				"Single Beds",
+				"Hydraulic Storage Beds",
+				"Upholstered Beds",
+				"Four Poster Beds",
+				"Trundle Beds",
+				"Bunk Beds",
+				"Platform Beds",
+				"Sofa cum Beds",
+				"Futons",
+				"Kids Beds",
+				"Beds by Design"
+		],
+		"Mattresses":[
+				"Mattress by Range",
+				"Mattress by Material",
+				"King size Mattress",
+				"Double Bed Mattress",
+				"Queen Size Mattress",
+				"Single Bed Mattress",
+				"All Mattresses"						
+		],
+		"Storage & Accessories":[
+				"Wardrobes",
+				"Chest of Drawers",
+				"Bedside Tables",
+				"Dressers & Mirrors",
+				"Bedroom Benches",
+				"Storage Chests"		
+		],
+		"Kids Bedroom":[
+				"Kids Beds",
+				"Bunk Beds"
+		]
+		
+}

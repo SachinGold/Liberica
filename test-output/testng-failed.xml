@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.LivingPageTest">
+      <class name="com.test.BedroomPageTest">
         <methods>
-          <include name="get_Sofa_set_SubmenuText"/>
-          <include name="close_Window_And_quiteDriver"/>
-          <include name="openBrowser"/>
+          <include name="tc_Beds_with_Storage_Sort_By_Price"/>
+          <include name="tc_openBrowser"/>
         </methods>
-      </class> <!-- com.test.LivingPageTest -->
+      </class> <!-- com.test.BedroomPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

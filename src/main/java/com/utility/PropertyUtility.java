@@ -1,11 +1,11 @@
 package com.utility;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+//import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-import com.config.Constants;
+//import com.config.Constants;
 
 public class PropertyUtility {
 	/**

@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import ru.yandex.qatools.ashot.AShot;
+
 public class Constants {
 	public static WebDriver driver;
 	public static WebElement element;
@@ -21,4 +23,5 @@ public class Constants {
 	public static boolean isDisplay;
 	public static String actual;
 	public static String expected;
+	public static AShot ashot;
 }

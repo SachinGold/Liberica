@@ -1,31 +1,48 @@
 package com.config;
 
+import java.io.File;
+//import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
+//import java.util.Date;
 import java.util.Iterator;
-import java.util.List;
+//import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import javax.imageio.ImageIO;
+
+import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+//import org.openqa.selenium.OutputType;
+//import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
+//import org.testng.Assert;
 
-import com.utility.PropertyUtility;
+//import com.utility.PropertyUtility;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+
 
 public class Keywords {
 	/**
@@ -58,7 +75,7 @@ public class Keywords {
 			Constants.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			break;
 		default:
-			System.out.println("Invalid browser name : " + browserName);
+			System.err.println("Invalid browser name : " + browserName);
 
 		}
 	}
@@ -175,7 +192,7 @@ public class Keywords {
 	 */
 	public static void switchToWindow(int windowIndex) {
 		Set<String> windows = Constants.driver.getWindowHandles();
-		ArrayList<String> list = new ArrayList(windows);
+		ArrayList<String> list = new ArrayList<String>(windows);
 		Constants.driver.switchTo().window(list.get(windowIndex));
 	}
 
@@ -233,11 +250,11 @@ public class Keywords {
 		Constants.jsonObj=(JSONObject)Constants.obj;
 		Constants.jsonArray=(JSONArray)Constants.jsonObj.get(key);
 		System.out.println("Expected Size is:-"+Constants.jsonArray.size());	
-		Iterator itr = Constants.jsonArray.iterator();
+		Iterator<?> itr = Constants.jsonArray.iterator();
 		while(itr.hasNext()) {
 			Constants.expected=(String) itr.next();
 		}
-		Constants.expectedList = new ArrayList();
+		Constants.expectedList = new ArrayList<String>();
 		String[] getList = new String[ Constants.jsonArray.size()];
 		for(int i=0;i<Constants.jsonArray.size();i++) {
 			getList[i]=(String)Constants.jsonArray.get(i);
@@ -273,4 +290,54 @@ public class Keywords {
 		Select select = new Select(element);
 		select.selectByVisibleText(textToSelect);
 	}
+	
+	/**
+	 * This method is used to verify whether checkbox is selected or not. If not select
+	 * then it will get selected 
+	 * 
+	 * @author Kapil Chavan
+	 * 
+	 */
+	public static void chk_Selectcheckbox(String locatorType, String locatorValue) {
+		
+		WebElement e = getWebElement(locatorType, locatorValue);
+		
+		if(e.isSelected()==false) 
+			{
+				e.click();			
+			}else{
+					System.out.println("Checkbox is already selected");
+		 }
+	}
+	
+	/**
+	 * This method is used to take screenshot of visible screen	 * 
+	 * @author Kapil Chavan
+	 * 
+	 */
+	public static void screenshot() throws IOException {
+		
+		Date d = new Date();
+		File srcFile = ((TakesScreenshot)Constants.driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(srcFile, new File(".\\Screenshots\\"+d.toString().replace(":", "_")+".png"));
+
+	}
+	
+	/**
+	 * This method is used to take full page screenshot of visible screen	 
+	 * @author Kapil Chavan
+	 * 
+	 */
+	public static void captureFullScreenshot()throws IOException {
+
+		AShot ashot = new AShot();		
+		Screenshot sc = ashot.shootingStrategy(ShootingStrategies.viewportPasting(2000)).takeScreenshot(Constants.driver);
+		try {
+			ImageIO.write(sc.getImage(), "PNG", new File("screenshot/FullpageAShot.png"));
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+	}
+	
 }

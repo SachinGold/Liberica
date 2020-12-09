@@ -1,73 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="158145" started-at="2020-08-10T00:35:01Z" finished-at="2020-08-10T00:37:39Z">
+  <suite name="Default suite" duration-ms="58869" started-at="2020-09-30T12:20:25Z" finished-at="2020-09-30T12:21:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="158145" started-at="2020-08-10T00:35:01Z" finished-at="2020-08-10T00:37:39Z">
-      <class name="com.test.LivingPageTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.test.LivingPageTest@204f30ec]" name="openBrowser" is-config="true" duration-ms="144912" started-at="2020-08-10T00:35:01Z" finished-at="2020-08-10T00:37:26Z">
+    <test name="Default test" duration-ms="58869" started-at="2020-09-30T12:20:25Z" finished-at="2020-09-30T12:21:24Z">
+      <class name="com.test.BedroomPageTest">
+        <test-method status="PASS" signature="tc_openBrowser()[pri:0, instance:com.test.BedroomPageTest@7adda9cc]" name="tc_openBrowser" is-config="true" duration-ms="19872" started-at="2020-09-30T12:20:25Z" finished-at="2020-09-30T12:20:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="livingMenuDisplay()[pri:1, instance:com.test.LivingPageTest@204f30ec]" name="livingMenuDisplay" duration-ms="650" started-at="2020-08-10T00:37:26Z" finished-at="2020-08-10T00:37:27Z">
+        </test-method> <!-- tc_openBrowser -->
+        <test-method status="PASS" signature="tc_BedroomMenuDisplay()[pri:1, instance:com.test.BedroomPageTest@7adda9cc]" name="tc_BedroomMenuDisplay" duration-ms="537" started-at="2020-09-30T12:20:45Z" finished-at="2020-09-30T12:20:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- livingMenuDisplay -->
-        <test-method status="PASS" signature="get_Sofa_set_SubmenuText()[pri:2, instance:com.test.LivingPageTest@204f30ec]" name="get_Sofa_set_SubmenuText" duration-ms="203" started-at="2020-08-10T00:37:27Z" finished-at="2020-08-10T00:37:27Z">
+        </test-method> <!-- tc_BedroomMenuDisplay -->
+        <test-method status="PASS" signature="tc_Beds_SubMenuDisplay()[pri:2, instance:com.test.BedroomPageTest@7adda9cc]" name="tc_Beds_SubMenuDisplay" duration-ms="3067" started-at="2020-09-30T12:20:46Z" finished-at="2020-09-30T12:20:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Sofa_set_SubmenuText -->
-        <test-method status="PASS" signature="get_Sofa_set_SubMenuList()[pri:3, instance:com.test.LivingPageTest@204f30ec]" name="get_Sofa_set_SubMenuList" duration-ms="974" started-at="2020-08-10T00:37:27Z" finished-at="2020-08-10T00:37:28Z">
+        </test-method> <!-- tc_Beds_SubMenuDisplay -->
+        <test-method status="PASS" signature="tc_BedsSubMenuItems()[pri:3, instance:com.test.BedroomPageTest@7adda9cc]" name="tc_BedsSubMenuItems" duration-ms="570" started-at="2020-09-30T12:20:49Z" finished-at="2020-09-30T12:20:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Sofa_set_SubMenuList -->
-        <test-method status="PASS" signature="get_Sofa_cum_Bed_SubmenuText()[pri:4, instance:com.test.LivingPageTest@204f30ec]" name="get_Sofa_cum_Bed_SubmenuText" duration-ms="158" started-at="2020-08-10T00:37:28Z" finished-at="2020-08-10T00:37:28Z">
+        </test-method> <!-- tc_BedsSubMenuItems -->
+        <test-method status="PASS" signature="get_Mattresses_SubMenuText()[pri:4, instance:com.test.BedroomPageTest@7adda9cc]" name="get_Mattresses_SubMenuText" duration-ms="65" started-at="2020-09-30T12:20:50Z" finished-at="2020-09-30T12:20:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Sofa_cum_Bed_SubmenuText -->
-        <test-method status="PASS" signature="get_Sofa_cum_Bed_SubMenuList()[pri:5, instance:com.test.LivingPageTest@204f30ec]" name="get_Sofa_cum_Bed_SubMenuList" duration-ms="428" started-at="2020-08-10T00:37:28Z" finished-at="2020-08-10T00:37:29Z">
+        </test-method> <!-- get_Mattresses_SubMenuText -->
+        <test-method status="PASS" signature="get_Mattresses_SubMenuList()[pri:5, instance:com.test.BedroomPageTest@7adda9cc]" name="get_Mattresses_SubMenuList" duration-ms="268" started-at="2020-09-30T12:20:50Z" finished-at="2020-09-30T12:20:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Sofa_cum_Bed_SubMenuList -->
-        <test-method status="PASS" signature="get_Chair_SubMenuText()[pri:6, instance:com.test.LivingPageTest@204f30ec]" name="get_Chair_SubMenuText" duration-ms="115" started-at="2020-08-10T00:37:29Z" finished-at="2020-08-10T00:37:29Z">
+        </test-method> <!-- get_Mattresses_SubMenuList -->
+        <test-method status="PASS" signature="get_Storage_and_Accessories_subMenu()[pri:6, instance:com.test.BedroomPageTest@7adda9cc]" name="get_Storage_and_Accessories_subMenu" duration-ms="66" started-at="2020-09-30T12:20:50Z" finished-at="2020-09-30T12:20:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Chair_SubMenuText -->
-        <test-method status="PASS" signature="get_Chair_SubMenuList()[pri:7, instance:com.test.LivingPageTest@204f30ec]" name="get_Chair_SubMenuList" duration-ms="556" started-at="2020-08-10T00:37:29Z" finished-at="2020-08-10T00:37:30Z">
+        </test-method> <!-- get_Storage_and_Accessories_subMenu -->
+        <test-method status="PASS" signature="get_Storage_and_Accessories_subMenuList()[pri:7, instance:com.test.BedroomPageTest@7adda9cc]" name="get_Storage_and_Accessories_subMenuList" duration-ms="234" started-at="2020-09-30T12:20:50Z" finished-at="2020-09-30T12:20:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Chair_SubMenuList -->
-        <test-method status="PASS" signature="get_Tables_SubMenuText()[pri:8, instance:com.test.LivingPageTest@204f30ec]" name="get_Tables_SubMenuText" duration-ms="115" started-at="2020-08-10T00:37:30Z" finished-at="2020-08-10T00:37:30Z">
+        </test-method> <!-- get_Storage_and_Accessories_subMenuList -->
+        <test-method status="PASS" signature="get_Kids_Bedroom_subMenu()[pri:8, instance:com.test.BedroomPageTest@7adda9cc]" name="get_Kids_Bedroom_subMenu" duration-ms="87" started-at="2020-09-30T12:20:50Z" finished-at="2020-09-30T12:20:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Tables_SubMenuText -->
-        <test-method status="PASS" signature="get_Tables_SubMenuList()[pri:9, instance:com.test.LivingPageTest@204f30ec]" name="get_Tables_SubMenuList" duration-ms="399" started-at="2020-08-10T00:37:30Z" finished-at="2020-08-10T00:37:30Z">
+        </test-method> <!-- get_Kids_Bedroom_subMenu -->
+        <test-method status="PASS" signature="get_Kids_Bedroom_subMenuList()[pri:9, instance:com.test.BedroomPageTest@7adda9cc]" name="get_Kids_Bedroom_subMenuList" duration-ms="117" started-at="2020-09-30T12:20:50Z" finished-at="2020-09-30T12:20:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Tables_SubMenuList -->
-        <test-method status="PASS" signature="get_Storage_SubMenuText()[pri:10, instance:com.test.LivingPageTest@204f30ec]" name="get_Storage_SubMenuText" duration-ms="99" started-at="2020-08-10T00:37:30Z" finished-at="2020-08-10T00:37:30Z">
+        </test-method> <!-- get_Kids_Bedroom_subMenuList -->
+        <test-method status="PASS" signature="tc_Beds_with_Storage_Sort_By_Price()[pri:10, instance:com.test.BedroomPageTest@7adda9cc]" name="tc_Beds_with_Storage_Sort_By_Price" duration-ms="33936" started-at="2020-09-30T12:20:50Z" finished-at="2020-09-30T12:21:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Storage_SubMenuText -->
-        <test-method status="PASS" signature="get_Storage_SubMenuList()[pri:11, instance:com.test.LivingPageTest@204f30ec]" name="get_Storage_SubMenuList" duration-ms="708" started-at="2020-08-10T00:37:30Z" finished-at="2020-08-10T00:37:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- get_Storage_SubMenuList -->
-        <test-method status="PASS" signature="get_Balcony_And_Outdoor_SubMenuText()[pri:12, instance:com.test.LivingPageTest@204f30ec]" name="get_Balcony_And_Outdoor_SubMenuText" duration-ms="115" started-at="2020-08-10T00:37:31Z" finished-at="2020-08-10T00:37:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- get_Balcony_And_Outdoor_SubMenuText -->
-        <test-method status="PASS" signature="get_Balcony_And_Outdoor_SubMenu_List_SubMenuList()[pri:13, instance:com.test.LivingPageTest@204f30ec]" name="get_Balcony_And_Outdoor_SubMenu_List_SubMenuList" duration-ms="309" started-at="2020-08-10T00:37:31Z" finished-at="2020-08-10T00:37:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- get_Balcony_And_Outdoor_SubMenu_List_SubMenuList -->
-        <test-method status="PASS" signature="close_Window_And_quiteDriver()[pri:0, instance:com.test.LivingPageTest@204f30ec]" name="close_Window_And_quiteDriver" is-config="true" duration-ms="8020" started-at="2020-08-10T00:37:31Z" finished-at="2020-08-10T00:37:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close_Window_And_quiteDriver -->
-      </class> <!-- com.test.LivingPageTest -->
+        </test-method> <!-- tc_Beds_with_Storage_Sort_By_Price -->
+      </class> <!-- com.test.BedroomPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
